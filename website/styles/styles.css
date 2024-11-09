@@ -1,0 +1,56 @@
+.site-header {
+    background-color: #222222;}
+   /* Цвет заголовка */
+   
+h1 {
+    color: #FFFFFF;}
+   /* Цвет текстового блока */
+p {
+    color: #D4D4D4;}
+   /* Цвета кнопки */
+.btn-yellow {
+    background-color: #FFCB06;
+    color: #000000;}
+
+
+*{
+    outline: 1px solid orange;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1040PX;
+    margin: 0 auto;
+}
+header{
+    background-color: #222222;
+}
+nav{
+    display: flex;
+    align-items:center;
+    padding-top: 54px;
+}
+header ul{
+    display:flex;
+}
+a{
+    text-decoration: none;
+}
+
+.site-menu{
+    color: #D4D4D4;
+    font-size:14px;
+    flex-grow: 1px;
+}
+.contacts-menu a{
+    visibility: hidden;
+
+}
+.logo-link{
+    margin-right: 62px;
+}
+.left-column{
+    padding-left: 126px;
+}
+
